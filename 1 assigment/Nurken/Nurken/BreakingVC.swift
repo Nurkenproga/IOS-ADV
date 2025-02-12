@@ -1,6 +1,6 @@
 import UIKit
 
-class BreakingVC: UIViewController {
+class BreakingVC: BaseViewController {
     
     @IBOutlet weak var FirstImageView: UIImageView!
     

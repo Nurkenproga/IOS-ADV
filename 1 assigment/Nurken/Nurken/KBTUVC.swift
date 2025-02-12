@@ -1,6 +1,6 @@
 import UIKit
 
-class KBTUVC: UIViewController {
+class KBTUVC: BaseViewController {
     
     @IBOutlet weak var FirstImageView: UIImageView!
 
