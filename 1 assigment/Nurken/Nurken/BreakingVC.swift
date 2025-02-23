@@ -15,7 +15,7 @@ Teams: Wild West Crew, Crazy Boys, SPASSKI team
 Competitions: Gorrila Style ward, Red Bull BC One Kazakhstan, Just Grove it, Just a battle, etc
 Goals: Candidate of Masters of Sports from Uralsk nathional battle
 Style: Footwork, Flow
-Favorutie DJs: Leg1oner, Akee, Mukhin Rock, 
+Favorutie DJs: Leg1oner, Akee, Mukhin Rock
 """
     override func viewDidLoad() {
         super.viewDidLoad()
