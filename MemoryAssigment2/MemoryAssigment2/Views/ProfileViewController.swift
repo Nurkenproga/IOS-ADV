@@ -17,7 +17,7 @@ class ProfileViewController: UIViewController {
         let label = UILabel()
         label.font = .boldSystemFont(ofSize: 24)
         label.textAlignment = .center
-        label.text = "Загрузка..." // Стартовый текст
+        label.text = "Загрузка..."
         return label
     }()
     
