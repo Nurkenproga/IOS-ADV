@@ -2,7 +2,16 @@ import SwiftUI
 
 final class HeroListViewModel: ObservableObject {
     @Published private(set) var heroes: [HeroListModel] = []
+    
+    @Published var searchText: String = ""
 
+    var filteredHeroes: [HeroListModel] {
+        if searchText.isEmpty {
+            return heroes
+        } else {
+            return heroes.filter { $0.title.lowercased().contains(searchText.lowercased()) }
+        }
+    }
     private let service: HeroService
     private let router: HeroRouter
 

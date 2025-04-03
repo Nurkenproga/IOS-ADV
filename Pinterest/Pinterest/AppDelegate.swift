@@ -1,3 +1,9 @@
+//
+//  AppDelegate.swift
+//  Pinterest
+//
+//  Created by Nurken on 03.04.2025.
+//
 
 import UIKit
 

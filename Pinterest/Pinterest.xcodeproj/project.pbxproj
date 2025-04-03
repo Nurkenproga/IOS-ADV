@@ -7,32 +7,32 @@
 	objects = {
 
 /* Begin PBXFileReference section */
-		3F53203A2D83DE2F005E8FE8 /* HeroApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HeroApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4F4E0DE32D9ED17D00F56D95 /* Pinterest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Pinterest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
-		3F53204C2D83DE31005E8FE8 /* Exceptions for "HeroApp" folder in "HeroApp" target */ = {
+		4F4E0DF52D9ED18600F56D95 /* Exceptions for "Pinterest" folder in "Pinterest" target */ = {
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
 				Info.plist,
 			);
-			target = 3F5320392D83DE2F005E8FE8 /* HeroApp */;
+			target = 4F4E0DE22D9ED17D00F56D95 /* Pinterest */;
 		};
 /* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		3F53203C2D83DE2F005E8FE8 /* HeroApp */ = {
+		4F4E0DE52D9ED17D00F56D95 /* Pinterest */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			exceptions = (
-				3F53204C2D83DE31005E8FE8 /* Exceptions for "HeroApp" folder in "HeroApp" target */,
+				4F4E0DF52D9ED18600F56D95 /* Exceptions for "Pinterest" folder in "Pinterest" target */,
 			);
-			path = HeroApp;
+			path = Pinterest;
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		3F5320372D83DE2F005E8FE8 /* Frameworks */ = {
+		4F4E0DE02D9ED17D00F56D95 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -42,18 +42,18 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		3F5320312D83DE2F005E8FE8 = {
+		4F4E0DDA2D9ED17D00F56D95 = {
 			isa = PBXGroup;
 			children = (
-				3F53203C2D83DE2F005E8FE8 /* HeroApp */,
-				3F53203B2D83DE2F005E8FE8 /* Products */,
+				4F4E0DE52D9ED17D00F56D95 /* Pinterest */,
+				4F4E0DE42D9ED17D00F56D95 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		3F53203B2D83DE2F005E8FE8 /* Products */ = {
+		4F4E0DE42D9ED17D00F56D95 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				3F53203A2D83DE2F005E8FE8 /* HeroApp.app */,
+				4F4E0DE32D9ED17D00F56D95 /* Pinterest.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -61,64 +61,64 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		3F5320392D83DE2F005E8FE8 /* HeroApp */ = {
+		4F4E0DE22D9ED17D00F56D95 /* Pinterest */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 3F53204D2D83DE31005E8FE8 /* Build configuration list for PBXNativeTarget "HeroApp" */;
+			buildConfigurationList = 4F4E0DF62D9ED18600F56D95 /* Build configuration list for PBXNativeTarget "Pinterest" */;
 			buildPhases = (
-				3F5320362D83DE2F005E8FE8 /* Sources */,
-				3F5320372D83DE2F005E8FE8 /* Frameworks */,
-				3F5320382D83DE2F005E8FE8 /* Resources */,
+				4F4E0DDF2D9ED17D00F56D95 /* Sources */,
+				4F4E0DE02D9ED17D00F56D95 /* Frameworks */,
+				4F4E0DE12D9ED17D00F56D95 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
-				3F53203C2D83DE2F005E8FE8 /* HeroApp */,
+				4F4E0DE52D9ED17D00F56D95 /* Pinterest */,
 			);
-			name = HeroApp;
+			name = Pinterest;
 			packageProductDependencies = (
 			);
-			productName = HeroApp;
-			productReference = 3F53203A2D83DE2F005E8FE8 /* HeroApp.app */;
+			productName = Pinterest;
+			productReference = 4F4E0DE32D9ED17D00F56D95 /* Pinterest.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		3F5320322D83DE2F005E8FE8 /* Project object */ = {
+		4F4E0DDB2D9ED17D00F56D95 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
-				LastSwiftUpdateCheck = 1620;
-				LastUpgradeCheck = 1620;
+				LastSwiftUpdateCheck = 1610;
+				LastUpgradeCheck = 1610;
 				TargetAttributes = {
-					3F5320392D83DE2F005E8FE8 = {
-						CreatedOnToolsVersion = 16.2;
+					4F4E0DE22D9ED17D00F56D95 = {
+						CreatedOnToolsVersion = 16.1;
 					};
 				};
 			};
-			buildConfigurationList = 3F5320352D83DE2F005E8FE8 /* Build configuration list for PBXProject "HeroApp" */;
+			buildConfigurationList = 4F4E0DDE2D9ED17D00F56D95 /* Build configuration list for PBXProject "Pinterest" */;
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 				Base,
 			);
-			mainGroup = 3F5320312D83DE2F005E8FE8;
+			mainGroup = 4F4E0DDA2D9ED17D00F56D95;
 			minimizedProjectReferenceProxies = 1;
 			preferredProjectObjectVersion = 77;
-			productRefGroup = 3F53203B2D83DE2F005E8FE8 /* Products */;
+			productRefGroup = 4F4E0DE42D9ED17D00F56D95 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				3F5320392D83DE2F005E8FE8 /* HeroApp */,
+				4F4E0DE22D9ED17D00F56D95 /* Pinterest */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		3F5320382D83DE2F005E8FE8 /* Resources */ = {
+		4F4E0DE12D9ED17D00F56D95 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -128,7 +128,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		3F5320362D83DE2F005E8FE8 /* Sources */ = {
+		4F4E0DDF2D9ED17D00F56D95 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -138,7 +138,7 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		3F53204E2D83DE31005E8FE8 /* Debug */ = {
+		4F4E0DF72D9ED18600F56D95 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -147,7 +147,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = MWB82S6DN5;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = HeroApp/Info.plist;
+				INFOPLIST_FILE = Pinterest/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
@@ -157,7 +157,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = myrzakanurov.a.HeroApp;
+				PRODUCT_BUNDLE_IDENTIFIER = atabaynurken.Pinterest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -165,7 +165,7 @@
 			};
 			name = Debug;
 		};
-		3F53204F2D83DE31005E8FE8 /* Release */ = {
+		4F4E0DF82D9ED18600F56D95 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -174,7 +174,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = MWB82S6DN5;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = HeroApp/Info.plist;
+				INFOPLIST_FILE = Pinterest/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
@@ -184,7 +184,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = myrzakanurov.a.HeroApp;
+				PRODUCT_BUNDLE_IDENTIFIER = atabaynurken.Pinterest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -192,7 +192,7 @@
 			};
 			name = Release;
 		};
-		3F5320502D83DE31005E8FE8 /* Debug */ = {
+		4F4E0DF92D9ED18600F56D95 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -244,7 +244,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
@@ -255,7 +255,7 @@
 			};
 			name = Debug;
 		};
-		3F5320512D83DE31005E8FE8 /* Release */ = {
+		4F4E0DFA2D9ED18600F56D95 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -301,7 +301,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
@@ -314,25 +314,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		3F5320352D83DE2F005E8FE8 /* Build configuration list for PBXProject "HeroApp" */ = {
+		4F4E0DDE2D9ED17D00F56D95 /* Build configuration list for PBXProject "Pinterest" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				3F5320502D83DE31005E8FE8 /* Debug */,
-				3F5320512D83DE31005E8FE8 /* Release */,
+				4F4E0DF92D9ED18600F56D95 /* Debug */,
+				4F4E0DFA2D9ED18600F56D95 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		3F53204D2D83DE31005E8FE8 /* Build configuration list for PBXNativeTarget "HeroApp" */ = {
+		4F4E0DF62D9ED18600F56D95 /* Build configuration list for PBXNativeTarget "Pinterest" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				3F53204E2D83DE31005E8FE8 /* Debug */,
-				3F53204F2D83DE31005E8FE8 /* Release */,
+				4F4E0DF72D9ED18600F56D95 /* Debug */,
+				4F4E0DF82D9ED18600F56D95 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 3F5320322D83DE2F005E8FE8 /* Project object */;
+	rootObject = 4F4E0DDB2D9ED17D00F56D95 /* Project object */;
 }

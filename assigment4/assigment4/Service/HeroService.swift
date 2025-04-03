@@ -13,7 +13,7 @@ struct HeroServiceImpl: HeroService {
         }
 
         do {
-            let (data, response) = try await URLSession.shared.data(from: url)
+            let (data, _) = try await URLSession.shared.data(from: url)
             let heroes = try JSONDecoder().decode([HeroEntity].self, from: data)
             return heroes
         } catch {
@@ -28,7 +28,7 @@ struct HeroServiceImpl: HeroService {
         }
 
         do {
-            let (data, response) = try await URLSession.shared.data(from: url)
+            let (data, _) = try await URLSession.shared.data(from: url)
             let hero = try JSONDecoder().decode(HeroEntity.self, from: data)
             return hero
         } catch {

@@ -10,8 +10,9 @@ final class HeroRouter {
     }
 
     private func makeDetailViewController(id: Int) -> UIViewController {
-        let mockVC = UIViewController()
-        mockVC.view.backgroundColor = .red
+        let heroService = HeroServiceImpl()
+        let heroDetailViewModel = HeroDetailViewModel(heroId: id, service: heroService)
+        let mockVC = UIHostingController(rootView: HeroDetailView(viewModel: heroDetailViewModel))
         return mockVC
     }
 }

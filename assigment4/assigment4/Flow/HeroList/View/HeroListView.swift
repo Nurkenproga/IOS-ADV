@@ -4,36 +4,23 @@ struct HeroListView: View {
     @StateObject var viewModel: HeroListViewModel
 
     var body: some View {
-        VStack {
-            Text("Hero List")
-                .font(.largeTitle)
-
-            Divider()
-                .padding(.bottom, 16)
-
-            listOfHeroes()
-            Spacer()
-        }
-        .task {
-            await viewModel.fetchHeroes()
+        NavigationView {
+            List {
+                ForEach(viewModel.filteredHeroes) { model in
+                    heroCard(model: model)
+                }
+            }
+            .navigationTitle("Heroes")
+            .navigationBarTitleDisplayMode(.inline)
+            .searchable(text: $viewModel.searchText, prompt: "Search heroes")
+            .task {
+                await viewModel.fetchHeroes()
+            }
         }
     }
 }
 
 extension HeroListView {
-    @ViewBuilder
-    private func listOfHeroes() -> some View {
-        ScrollView {
-            VStack(alignment: .leading) {
-                ForEach(viewModel.heroes) { model in
-                    heroCard(model: model)
-                        .padding(.vertical, 8)
-                        .padding(.horizontal, 16)
-                }
-            }
-        }
-    }
-
     @ViewBuilder
     private func heroCard(model: HeroListModel) -> some View {
         HStack {
@@ -42,25 +29,29 @@ extension HeroListView {
                 case .success(let image):
                     image
                         .resizable()
-                        .frame(width: 100, height: 100)
-                        .padding(.trailing, 16)
+                        .frame(width: 80, height: 80)
+                        .clipShape(RoundedRectangle(cornerRadius: 10))
+                        .padding(.trailing, 12)
                 default:
                     Color.gray
-                        .frame(width: 100, height: 100)
-                        .padding(.trailing, 16)
+                        .frame(width: 80, height: 80)
+                        .clipShape(RoundedRectangle(cornerRadius: 10))
+                        .padding(.trailing, 12)
                 }
             }
 
-            VStack {
+            VStack(alignment: .leading) {
                 Text(model.title)
+                    .font(.headline)
                 Text(model.description)
+                    .font(.subheadline)
+                    .foregroundColor(.gray)
             }
             Spacer()
         }
-        .frame(maxWidth: .infinity)
+        .padding(.vertical, 4)
         .contentShape(Rectangle())
         .onTapGesture {
-            print("Tapped \(model.id)")
             viewModel.routeToDetail(by: model.id)
         }
     }
